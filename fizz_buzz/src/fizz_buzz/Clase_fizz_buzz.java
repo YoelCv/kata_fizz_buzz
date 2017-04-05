@@ -1,0 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package fizz_buzz;
+
+/**
+ *
+ * @author daw108
+ */
+public class Clase_fizz_buzz {
+        
+    public Clase_fizz_buzz(){}
+    
+    public int getfizz_buzz(int n){
+        return n;
+    }
+}
