@@ -43,5 +43,9 @@ public class Clase_fizz_buzzTest {
         String result = fb.getfizz_buzz(5);
         assertEquals("buzz",result);
     }
-    
+    public void testSomeMethod5() {
+        Clase_fizz_buzz fb = new Clase_fizz_buzz();
+        String result = fb.getfizz_buzz(15);
+        assertEquals("fizz buzz",result);
+    }
 }
