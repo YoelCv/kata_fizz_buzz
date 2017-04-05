@@ -20,13 +20,28 @@ public class Clase_fizz_buzzTest {
     @Test
     public void testSomeMethod1() {
         Clase_fizz_buzz fb = new Clase_fizz_buzz();
-        int result = fb.getfizz_buzz(1);
-        assertEquals(1,result);
+        String result = fb.getfizz_buzz(1);
+        assertEquals("1",result);
     }
     @Test
     public void testSomeMethod2() {
         Clase_fizz_buzz fb = new Clase_fizz_buzz();
-        int result = fb.getfizz_buzz(2);
-        assertEquals(2,result);
+        String result = fb.getfizz_buzz(2);
+        assertEquals("2",result);
     }
+    
+    @Test
+    public void testSomeMethod3() {
+        Clase_fizz_buzz fb = new Clase_fizz_buzz();
+        String result = fb.getfizz_buzz(3);
+        assertEquals("Fizz",result);
+    }
+
+    @Test
+    public void testSomeMethod4() {
+        Clase_fizz_buzz fb = new Clase_fizz_buzz();
+        String result = fb.getfizz_buzz(5);
+        assertEquals("Buzz",result);
+    }
+    
 }

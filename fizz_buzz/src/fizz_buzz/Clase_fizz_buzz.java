@@ -13,7 +13,15 @@ public class Clase_fizz_buzz {
         
     public Clase_fizz_buzz(){}
     
-    public int getfizz_buzz(int n){
-        return n;
+    public String getfizz_buzz(int n){
+        
+        String r=String.valueOf(n);
+        
+        if (n%3==0)
+            
+            r="Fizz";
+
+        return r;
     }
+    
 }
