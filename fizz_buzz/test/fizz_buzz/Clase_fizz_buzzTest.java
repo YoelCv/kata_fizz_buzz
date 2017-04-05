@@ -28,7 +28,7 @@ public class Clase_fizz_buzzTest {
     public void testSomeMethod2() {
         Clase_fizz_buzz fb = new Clase_fizz_buzz();
         String result = fb.getfizz_buzz(2);
-        assertEquals("pepe",result);
+        assertEquals("2",result);
     }
 
     @Test
@@ -52,18 +52,5 @@ public class Clase_fizz_buzzTest {
         assertEquals("fizz buzz",result);
     }
 
-    @Test
-     public void testSomeMethod7() {
-        Clase_fizz_buzz fb = new Clase_fizz_buzz();
-        String result = fb.getfizz_buzz(10);
-        assertEquals("pepe buzz",result);
-    }
-     
-     @Test
-     public void testSomeMethod8() {
-        Clase_fizz_buzz fb = new Clase_fizz_buzz();
-        String result = fb.getfizz_buzz(30);
-        assertEquals("pepe buzz fizz",result);
-    }
  
 }
