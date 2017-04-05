@@ -29,10 +29,19 @@ public class Clase_fizz_buzzTest {
         String result = fb.getfizz_buzz(2);
         assertEquals("2",result);
     }
+    
+    @Test
     public void testSomeMethod3() {
         Clase_fizz_buzz fb = new Clase_fizz_buzz();
         String result = fb.getfizz_buzz(3);
         assertEquals("fizz",result);
+    }
+
+    @Test
+    public void testSomeMethod4() {
+        Clase_fizz_buzz fb = new Clase_fizz_buzz();
+        String result = fb.getfizz_buzz(5);
+        assertEquals("Buzz",result);
     }
     
 }

@@ -14,11 +14,11 @@ public class Clase_fizz_buzz {
     public Clase_fizz_buzz(){}
     
     public String getfizz_buzz(int n){
-        String r=String.valueOf(n);
-        
+        String r=String.valueOf(n);    
         if (n%3==0){
             r= "fizz";
-        }
+        }        
         return r;
     }
+    
 }
