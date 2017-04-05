@@ -15,13 +15,12 @@ public class Clase_fizz_buzz {
     
     public String getfizz_buzz(int n){
         String r=String.valueOf(n);    
-        
-       
+
         if (n%3==0 & n % 5 == 0)
             r= "fizz buzz";
         
-        else if (n%3==0){
-            r= "fizz";
+        else if (n%3==0 | r.contains("3")){
+            r= "fizz";  
         }
         else if (n % 5 == 0) {
             r = "buzz";
