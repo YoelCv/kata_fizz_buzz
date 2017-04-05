@@ -23,10 +23,10 @@ public class Clase_fizz_buzz {
         else if (n%3==0){
             r= "fizz";
         }
-        else if (n % 5 == 0) {
+        else if (n % 5 == 0 | r.contains("5")) {
             r = "buzz";
         }
-      
+        
         return r;
     }
     
