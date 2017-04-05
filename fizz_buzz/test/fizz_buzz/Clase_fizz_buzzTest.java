@@ -51,14 +51,7 @@ public class Clase_fizz_buzzTest {
         String result = fb.getfizz_buzz(15);
         assertEquals("fizz buzz",result);
     }
-    
-    @Test
-    public void testSomeMethod6() {
-        Clase_fizz_buzz fb = new Clase_fizz_buzz();
-        String result = fb.getfizz_buzz(2);
-        assertEquals("pepe",result);
-    }
-    
+
     @Test
      public void testSomeMethod7() {
         Clase_fizz_buzz fb = new Clase_fizz_buzz();
