@@ -17,6 +17,9 @@ public class Clase_fizz_buzz {
         String r=String.valueOf(n);    
         if (n%3==0){
             r= "fizz";
+        }
+        if (n % 5 == 0) {
+            r = "buzz";
         }        
         return r;
     }
